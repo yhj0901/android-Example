@@ -376,10 +376,85 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nn2Aic2KLE3H-Qddy4Wa" name="페이지-2">
-    <mxGraphModel dx="2954" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3781" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-1" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="770" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-2" value="BackEnd Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-3" value="Google pay Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="610" as="sourcePoint" />
+            <mxPoint x="1390" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="meUDwB5ZV0Yw3nlspM66-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="610" as="sourcePoint" />
+            <mxPoint x="830" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="meUDwB5ZV0Yw3nlspM66-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1114" y="610" as="sourcePoint" />
+            <mxPoint x="1114" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="meUDwB5ZV0Yw3nlspM66-3" target="meUDwB5ZV0Yw3nlspM66-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-8" value="productid, userId, ..&amp;nbsp;&lt;div style=&quot;font-size: 14px;&quot;&gt;필요한 정보 전달&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="250" as="sourcePoint" />
+            <mxPoint x="830" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-12" value="결제 요청" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="330" as="sourcePoint" />
+            <mxPoint x="1390" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-13" value="결제 성공 응답" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1390" y="370" as="sourcePoint" />
+            <mxPoint x="830" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-14" value="결제 성공 전송" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="430" as="sourcePoint" />
+            <mxPoint x="1110" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-15" value="전송 완료" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1113" y="530" as="sourcePoint" />
+            <mxPoint x="833" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-16" value="소모 처리&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="480" as="sourcePoint" />
+            <mxPoint x="1390" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-17" value="소모 처리는 결제 성공 전송 후&amp;nbsp;&lt;div&gt;비동기로 처리&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0D0D;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="430" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="60" width="780" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-19" value="App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
