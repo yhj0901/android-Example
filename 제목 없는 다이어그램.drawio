@@ -532,6 +532,15 @@
         <mxCell id="meUDwB5ZV0Yw3nlspM66-54" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="meUDwB5ZV0Yw3nlspM66-52" target="meUDwB5ZV0Yw3nlspM66-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="meUDwB5ZV0Yw3nlspM66-86" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="meUDwB5ZV0Yw3nlspM66-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-460" y="1804" />
+              <mxPoint x="-460" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="meUDwB5ZV0Yw3nlspM66-52" value="소모처리 할게 있나?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-305" y="1754" width="150" height="100" as="geometry" />
         </mxCell>
@@ -575,7 +584,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="meUDwB5ZV0Yw3nlspM66-77" value="결제 로직 초기화(재 결제 할수있게 상태 업데이트)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2100" width="250" height="50" as="geometry" />
+          <mxGeometry x="30" y="2080" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="meUDwB5ZV0Yw3nlspM66-78" value="이미 구매한 상품" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="420" y="1845" width="250" height="50" as="geometry" />
